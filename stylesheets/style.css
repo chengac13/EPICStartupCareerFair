@@ -1,3 +1,18 @@
+body{
+  overflow-x:hidden;
+   background-color: rgb(40, 40, 40);
+}
+/*FONT*/
+body, h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+h5, h3, p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
 
 /*BUTTON*/
 button {
@@ -13,23 +28,12 @@ button {
   -moz-transition: background-color 0.5s, color 0.5s;
   -o-transition: background-color 0.5s, color 0.5s;
 }
-
 button:hover{
   background: white;
   color: red;
 }
 
-/*FONT*/
-body, h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 42px;
-}
 
-h5, h3, p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-}
 
 /*LINE BELOW 'FEATURING...'*/
 .cool-line, .cool-line2 {
@@ -45,24 +49,24 @@ h5, h3, p {
 
 /*BACKGROUND IMAGE DARKENING*/
 .overlay{
-  background-color: rgba(0,0,0,0.2);
-  height: 100%;
+  background-image: url('../images/bg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
   width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
+  padding-top: 1%;
+  padding-bottom:20%;
 }
 
 /*BACKGROUND IMAGE*/
 .page {
-  background-image: url('../images/bg.jpg');
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+  
   min-height:100%;
   height: auto;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
 }
@@ -147,10 +151,8 @@ img.epic-logo {
   background-color: rgb(40, 40, 40);
   width: 100%;
   height: auto;
-  padding-bottom:.5em;
   text-align: center;
 }
-
 .epic {
   display: block;
   margin-left: auto;
@@ -164,4 +166,3 @@ img.epic-logo {
   color: white;
   text-align: center;
 }
-
