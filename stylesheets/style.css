@@ -1,0 +1,167 @@
+
+/*BUTTON*/
+button {
+  background: none;
+  border: white 3px solid;
+  border-radius: 6px;
+  color: white;
+  padding: 0.5em 1em;
+  margin-top: 75px;
+  font-size: 30px;
+  transition: background-color 0.5s, color 0.5s;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s;
+  -o-transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover{
+  background: white;
+  color: red;
+}
+
+/*FONT*/
+body, h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+h5, h3, p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+/*LINE BELOW 'FEATURING...'*/
+.cool-line, .cool-line2 {
+  background-color: rgba(200, 200, 200, 0.4);
+  width: 60%;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.cool-line2 {
+  margin-top: 1em;
+}
+
+/*BACKGROUND IMAGE DARKENING*/
+.overlay{
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*BACKGROUND IMAGE*/
+.page {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height:100%;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*TEXT*/
+.nu, .scf, .featuring, .untap {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.featuring{
+  margin-bottom: 0.7em;
+}
+
+.nu {
+  margin-top: 1.4em;
+}
+
+.scf span {
+  color: red;
+}
+
+.untap {
+  margin-top: 1em;
+}
+
+
+
+/*MENU*/
+.list {
+  margin-top: 30px;
+}
+
+li {
+  width: 14em;
+  font-size: 16px;
+  list-style-type: none;
+  color: white;
+  background-color: black;
+  padding: none;
+  margin: 0.4em;
+  padding: 0.4em;
+  position: relative;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+}
+
+li:hover{
+  width: 16em;
+
+}
+
+li.startup {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+/*LOGOS*/
+.logo {
+  margin-top: 0em;
+  text-align: center;
+  padding: 0;
+
+}
+
+.logo img{
+  height: 70px;
+  margin: 0 1.1em;
+}
+
+img.epic-logo {
+  height: 50px;
+  position: relative;
+}
+
+
+/*GREY BOX*/
+.box {
+  background-color: rgb(40, 40, 40);
+  width: 100%;
+  height: auto;
+  padding-bottom:.5em;
+  text-align: center;
+}
+
+.epic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 10%;
+  height: 10%;
+}
+
+.bottom {
+  color: white;
+  text-align: center;
+}
+
